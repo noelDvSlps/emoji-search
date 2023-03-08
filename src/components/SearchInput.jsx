@@ -23,6 +23,7 @@ class SearchInput extends React.Component {
     return (
       <div style={{width: "80%", minWidth: "400px", overflow: "hidden", }}>
         
+        <label>
         <input
          style={{width: "100%",  fontSize: "1.5rem", }}
           type="text"
@@ -32,6 +33,7 @@ class SearchInput extends React.Component {
           name="searchInput"
           
         />
+        </label>
 
      
        
